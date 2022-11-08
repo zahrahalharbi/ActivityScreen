@@ -9,10 +9,16 @@ import SwiftUI
 struct AppView: View {
     
 var row: [GridItem]
+    
+    
 var cardHeight: CGFloat
+    
+    
 var location = ["mdin3", "mdin11", "mdin4","mdin2"]
+    
 
 @State private var showModal = false
+    
 @State private var selected = ""
 
 var body: some View {
